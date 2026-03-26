@@ -1,0 +1,4 @@
+Set environment variables before starting the server.
+
+MONGODB_URI=mongodb+srv://...
+PORT=4000
