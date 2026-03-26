@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const apiBase = "http://localhost:4000/api";
+const apiBase = import.meta.env.VITE_API_BASE || "https://umurinzi-llgk.onrender.com/api";
 const tokenKey = "umurinzi_token";
 
 const labels = {
